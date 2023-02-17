@@ -76,6 +76,4 @@ router.post('/get_registered_courses', async (req: AuthRequestWithPayload<boolea
   }
 });
 
-router.post('');
-
 export default router;

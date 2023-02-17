@@ -124,4 +124,6 @@ router.post('/refresh', async (req: RequestWithPayload<{ refreshToken: string }>
   });
 });
 
+router.post('/social_signup', (req, res) => {});
+
 export default router;

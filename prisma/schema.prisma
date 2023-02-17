@@ -58,3 +58,7 @@ model Registration {
 
   @@unique([userId, courseId])
 }
+
+model Webinar {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+}
